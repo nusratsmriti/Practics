@@ -1,0 +1,99 @@
+.haeader-image{
+    display: flex;
+}
+.banner-container{
+      background-image: url('images/banner.jpg');
+    background-image: cover;
+    padding: 100px ;
+
+    margin-bottom: 70px;
+
+
+}
+.banner{
+  
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    
+}
+.banner-image{
+    width: 90px;
+    height: 90px ;
+    padding-right: 20px;
+}
+.baner-btn{
+    background-color: rgb(120, 120, 226);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px ;
+    border: none;
+    padding: 20px ;
+
+}
+.header-title{
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banerr-dis{
+    font-size: 40px ;
+    padding-bottom: 200px ;
+
+
+}
+
+.about{
+    display: flex;
+   
+}
+.about-img{
+    padding-right:200px;
+   
+    width: 900px;
+    height: 500px;
+}
+.about-header{
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.about-title{
+    color: gray;
+    padding-right: 500px;
+}
+.cards-section{
+    margin-top: 100px;
+}
+.cards-title{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+
+}
+.cards-container{
+    display: flex;
+    gap: 20px;
+}
+.card-header{
+    font-weight: 800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-title{
+    color: gray;
+
+}
+
+.card-img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+.card{
+    padding: 30px;
+    background-color: rgb(236, 230, 230);
+    border-radius: 10px;
+}
