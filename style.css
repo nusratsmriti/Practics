@@ -1,99 +1,220 @@
-.haeader-image{
-    display: flex;
+body {
+  margin: 0;
 }
-.banner-container{
-      background-image: url('images/banner.jpg');
-    background-image: cover;
-    padding: 100px ;
-
-    margin-bottom: 70px;
-
-
+.haeader-image {
+  display: flex;
 }
-.banner{
-  
-    
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-
-    
+.banner-container {
+  background-image: url("images/banner 2.jpg");
+  padding: 60px;
+  margin-bottom: 70px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
-.banner-image{
-    width: 90px;
-    height: 90px ;
-    padding-right: 20px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
 }
-.baner-btn{
-    background-color: rgb(120, 120, 226);
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px ;
-    border: none;
-    padding: 20px ;
-
+.banner-image {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
 }
-.header-title{
-    font-size: 90px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.baner-btn {
+  background-color: #2d4f2b;
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  border: none;
+  padding: 20px;
 }
-.banerr-dis{
-    font-size: 40px ;
-    padding-bottom: 200px ;
-
-
+.baner-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
-
-.about{
-    display: flex;
-   
+.header-title {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.about-img{
-    padding-right:200px;
-   
-    width: 900px;
-    height: 500px;
-}
-.about-header{
-    font-size: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+.banerr-dis {
+  font-size: 40px;
+  margin-top: 10px;
 }
 
-.about-title{
-    color: gray;
-    padding-right: 500px;
-}
-.cards-section{
-    margin-top: 100px;
-}
-.cards-title{
-    font-size: 80px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    
+/* about section style */
 
+.about {
+  display: flex;
+  column-gap: 100px;
 }
-.cards-container{
-    display: flex;
-    gap: 20px;
+.about-img {
+  width: 600px;
+  height: 400px;
 }
-.card-header{
-    font-weight: 800px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.card-title{
-    color: gray;
-
+.about-header {
+  font-size: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0px;
 }
 
-.card-img{
-    width: 500px;
-    height: 300px;
-    border-radius: 5px;
+.about-title {
+  color: gray;
+  margin-top: 7px;
 }
-.card{
-    padding: 30px;
-    background-color: rgb(236, 230, 230);
-    border-radius: 10px;
+
+/* card section styles */
+
+.cards-section {
+  background-image: url("images/Blur banner.jpg");
+  padding: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.cards-title {
+  font-size: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.cards-container {
+  display: flex;
+  gap: 20px;
+}
+.card-header {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0px;
+}
+.card-title {
+  color: gray;
+}
+
+.card-img {
+  /* width: 450px; */
+  height: 300px;
+  /* border-radius: 5px; */
+}
+.card {
+  /* padding: 10px; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 4px 8px 6px rgba(4, 4, 4, 0.2);
+}
+
+.card-info {
+  text-align: center;
+}
+.cards-container {
+  display: flex; /* horizontally aligned cards */
+  gap: 20px; /* space between cards */
+  flex-wrap: wrap; /* wrap to next line on small screens */
+  justify-content: center;
+  padding: 10px;
+}
+span {
+  color: rgb(113, 113, 198);
+}
+.fourth-section-info {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fourth-section {
+  margin: 80px;
+  display: flex;
+  gap: 50px;
+}
+.imges {
+  display: flex;
+  gap: 20px;
+}
+.img1 {
+  height: 300px;
+  width: 250px;
+  padding-top: 200px;
+}
+.img2 {
+  height: 500px;
+  width: 300px;
+}
+
+/* Satisfied Clients section */
+.clients-section {
+  display: grid;
+  padding: 200px;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url("images/Blur banner.jpg");
+  padding: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.clients-heder {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.cilents-comment-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  margin-right: 100px;
+}
+.clients-comments {
+  color: rgb(25, 24, 24);
+  font-size: 20px;
+}
+.clients-name {
+  color: rgb(97, 97, 188);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* footer  */
+.footer-images{
+  display: flex;
+  margin: 60px ;
+  gap: 20px;
+}
+.footer-images img{
+  width: 450px;
+  height: 300px;
+}
+.footer-heder{
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.footer{
+  display: flex;
+  column-gap: 350px;
+  padding-left: 60px;
+  padding-bottom: 100px;
+}
+.name{
+  color: rgb(99, 99, 234);
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+.address{
+  margin-top: 0px;
+  color: rgb(81, 77, 77);
+  font-size: 25px;
 }
